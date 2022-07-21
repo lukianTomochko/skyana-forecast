@@ -1,0 +1,348 @@
+@media (max-width: 1477px) {
+
+    .mainImg {
+        right: 150px;
+    }
+
+}
+
+@media (max-width: 1347px) {
+
+    .mainImg {
+        width: 400px;
+        height: 400px;
+        top: 70px;
+        right: 110px;
+    }
+
+}
+
+@media (max-width: 1227px) {
+
+    .mainImg {
+        width: 350px;
+        height: 350px;
+        top: 110px;
+        right: 60px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .mainImg {
+        width: 300px;
+        height: 300px;
+        top: 110px;
+        right: 60px;
+    }
+
+    .underLine {
+        width: 550px;
+    }
+
+}
+
+@media (max-width: 1010px) {
+
+    .mainImg {
+        width: 290px;
+        height: 290px;
+        top: 95px;
+        right: 55px;
+    }
+
+    .mainTextBlock h2 {
+        font-size: 34px;
+    }
+
+    .mainTextBlock p {
+        width: 390px;
+        font-size: 17px;
+    }
+
+    .searchBlock h3 {
+        font-size: 25px;
+    }
+
+    .underLine {
+        width: 500px;
+    }
+
+    .iconsBlock {
+        width: 145px;
+    }
+
+    .iconsBlock a img {
+        width: 41px;
+        height: 41px;
+    }
+
+    #telegIcon img {
+        width: 40px;
+        height: 35px;
+    }
+
+}
+
+@media (max-width: 925px) {
+
+    .mainImg {
+        display: none;
+    }
+
+    .mainTextBlock p {
+        width: 430px;
+        font-size: 17px;
+    }
+
+    .searchBlock h3 {
+        font-size: 25px;
+    }
+
+    .underLine {
+        width: 83%;
+    }
+
+    .inputBlock {
+        width: 83%;
+    }
+
+    #locationInput {
+        width: 100%;
+    }
+
+    .searchBtn {
+        top: 0px;
+        right: -16px;
+        /*        padding-right: 13px;*/
+        transition: .3s background;
+    }
+
+    .searchBtn:hover {
+        background: rgba(238, 251, 251, 0.16);
+        transition: .3s background;
+        padding-left: 18px;
+
+    }
+
+    .mainWrapper {
+        background: url("../images/bgPicture.png");
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 660px) {
+
+    .underLine {
+        width: 90%;
+    }
+
+    .inputBlock {
+        width: 90%;
+    }
+
+    .mainTextBlock h2 {
+        font-size: 32px;
+    }
+
+    .mainTextBlock p {
+        width: 395px;
+        font-size: 17px;
+    }
+
+    .searchBlock h3 {
+        font-size: 23px;
+    }
+
+    .iconsBlock {
+        width: 125px;
+    }
+
+    .iconsBlock a img {
+        width: 37px;
+        height: 37px;
+    }
+
+    #telegIcon img {
+        width: 35px;
+        height: 30px;
+    }
+
+    .copyText {
+        font-size: 15px;
+    }
+
+    .btnBlock {
+        width: 360px;
+    }
+
+    .btn_GPS,
+    .btn_cities {
+        font-size: 14.5px;
+        width: 170px;
+        padding: 14px 0px;
+        border-radius: 19px;
+    }
+
+}
+
+@media (max-width: 530px) {
+
+    .header_logo {
+        font-size: 21px;
+        letter-spacing: -0.5px;
+    }
+
+    .navText {
+        font-size: 15px;
+    }
+
+    .mainTextBlock h2 {
+        font-size: 30px;
+    }
+
+    .mainTextBlock p {
+        width: 365px;
+        font-size: 16px;
+    }
+
+    .searchBlock h3 {
+        font-size: 22px;
+    }
+
+    .btnBlock {
+        width: 340px;
+    }
+
+    .btn_GPS,
+    .btn_cities {
+        font-size: 13.5px;
+        width: 160px;
+        padding: 13px 0px;
+        border-radius: 18px;
+    }
+
+    .iconsBlock {
+        width: 115px;
+    }
+
+    .iconsBlock a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    #telegIcon img {
+        width: 32px;
+        height: 28px;
+    }
+
+    .mainWrapper {
+        background: url("../images/bgPicture.png");
+        background-position: 70% 0%;
+        background-size: cover;
+    }
+
+
+}
+
+@media (max-width: 435px) {
+
+    #menu_allCities {
+        width: 320px;
+    }
+
+    .item_allCities {
+        width: 155px;
+        height: 90px;
+    }
+
+    .sideLeft {
+        width: 75px;
+    }
+
+    .sideRight {
+        width: 80px;
+    }
+    
+    .text_allCities{
+        width: 168px;
+        font-size: 26px;
+    }
+    
+    .nameOfcity{
+        font-size: 14px;
+    }
+    
+    .nameOfcityBigger{
+        font-size: 11.5px;
+    }
+    
+    .tempOfcity{
+        font-size: 17px;
+    }
+    
+    .rightBlock_allCities{
+        margin-right: -3px;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .mainTextBlock h2 {
+        font-size: 27px;
+    }
+
+    .mainTextBlock p {
+        width: 310px;
+        font-size: 14px;
+    }
+
+    .searchBlock {
+        height: 250px;
+        margin-top: 60px;
+    }
+
+    .searchBlock h3 {
+        width: 230px;
+        font-size: 20px;
+    }
+
+    .btnBlock {
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .copyText {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+
+}
+
+@media (max-height: 715px) {
+
+    .mainWrapper {
+        height: auto;
+    }
+
+    .nav_allCities {
+        margin-top: 570px;
+    }
+
+}
+
+@media (min-height: 745px) {
+
+    #menu_allCities {
+        height: 740px;
+        border-bottom: 1.5px solid #fff;
+    }
+
+}

@@ -1,0 +1,309 @@
+@media (max-width: 1380px) {
+
+    .topText {
+        margin-top: -20px;
+    }
+
+    .mainTextBlock {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #EEFBFB;
+    }
+
+    .detailsText {
+        margin-left: 5px;
+    }
+
+}
+
+@media (max-width: 1130px) {
+
+    .mainTextBlock {
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #EEFBFB;
+    }
+
+    .detailTextWrapper {
+        display: flex;
+        height: 220px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .iconWeatherBlock {
+        margin-left: 0px;
+    }
+
+
+}
+
+
+@media (max-width: 1130px) {
+
+    .tempText {
+        font-size: 120px;
+    }
+
+    .topText {
+        margin-top: -50px;
+    }
+
+    .currentCityName {
+        font-size: 45px !important;
+    }
+
+    .currentDate {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .allDetailsBlock,
+    .bg_allDetailsBlock {
+        width: 420px;
+    }
+
+    .weatherDetails,
+    .weatherTemp,
+    .titleOfsection,
+    .inputBlock {
+        width: 360px;
+    }
+
+    #locationInput {
+        width: 345px;
+    }
+
+    .searchBtn {
+        transition: .1s;
+    }
+
+    .searchBtn:hover {
+        background: rgba(238, 251, 251, 0.16);
+        transition: .1s;
+        padding-left: 18px;
+
+    }
+
+    .searchBtn:active {
+        background: rgba(238, 251, 251, 0.05);
+        transition: .1s;
+        padding-left: 18px;
+
+    }
+
+    .weatherNav {
+        margin-left: -40px;
+    }
+
+    .mainTextBlock {
+        height: 300px;
+        margin-top: 0;
+    }
+
+    .detailTextWrapper {
+        display: flex;
+/*        width: 450px;*/
+        height: 90px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .detailsText,
+    .iconWeatherBlcok {
+        height: auto;
+    }
+    
+    .detailsText{
+        padding-right: 30px;
+    }
+
+    .iconWeatherBlcok {
+        margin-top: 5px;
+    }
+
+
+}
+
+@media (max-width: 980px) {
+
+    .topText {
+        margin-top: -80px;
+    }
+
+    .allDetailsBlock {
+        right: -100%;
+    }
+
+    .bg_allDetailsBlock {
+        right: -100%;
+    }
+
+    .inputBlock {
+        margin-top: 55px;
+    }
+
+    .crossBtn {
+        display: block;
+    }
+
+
+    .mobWeatherBtn {
+        display: flex;
+    }
+
+    .weatherDetailsRight {
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    .topText {
+        margin-top: -30px;
+    }
+
+    .tempText {
+        font-size: 90px;
+    }
+
+    .mainTextBlock {
+        margin-top: 120px;
+    }
+
+/*
+    .detailTextWrapper {
+        width: 390px;
+    }
+    
+    .
+*/
+
+    .currentCityName {
+        font-size: 38px !important;
+    }
+
+    .currentDate {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .allDetailsBlock,
+    .bg_allDetailsBlock {
+        width: 360px;
+    }
+
+    .mainTextBlock {
+        margin-top: 110px;
+    }
+    
+    .mobWeatherBtn{
+        bottom: 120px;
+    }
+
+    .weatherDetails,
+    .weatherTemp,
+    .titleOfsection,
+    .inputBlock {
+        width: 290px;
+    }
+
+    #locationInput {
+        width: 270px;
+    }
+
+    .weatherNav {
+        margin-left: 0px;
+    }
+
+    .iconWeather {
+        transform: scale(.9);
+    }
+
+    .currentWeather {
+        font-size: 15px;
+    }
+
+    #mob_iconBlock {
+        display: flex;
+    }
+
+    #pc_iconBlock {
+        display: none;
+    }
+
+    .tempText {
+        font-size: 80px;
+    }
+
+    .currentCityName {
+        font-size: 35px !important;
+    }
+
+    .currentDate {
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 360px) {
+
+    .allDetailsBlock,
+    .bg_allDetailsBlock {
+        width: 320px;
+    }
+
+    .weatherDetails,
+    .weatherTemp,
+    .titleOfsection,
+    .inputBlock {
+        width: 270px;
+    }
+
+    #locationInput {
+        width: 250px;
+    }
+
+    .weatherNav {
+        width: 285px;
+    }
+
+    .weatherNav_item_nav {
+        width: 27px;
+        height: 27px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-height: 730px) {
+    
+    .allDetailsBlock{
+        height: 730px;
+    }
+    
+    .mainWrapper{
+        height: 730px;
+    }
+    
+}
+
+
+
+
+
+
+
+

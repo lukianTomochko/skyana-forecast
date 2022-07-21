@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skyana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="mainWrapper">
+        <div class="mainImg"></div>
+        <header class="header">
+            <div id="menu_allCities">
+               <div class="closeMenu" onclick="hideMenu()"></div>
+                <div class="text_allCities">24 main cities</div>
+                <div class="mainBlock_allCities" id="mainBlock_allCitiesId">
+                    <div class="section_allCities section_allCitiesActive">
+                        <div class="leftBlock_allCities">
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/kyivImg.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Київ</div>
+                                    <div class="tempOfcity" id="tempKyiv">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/ivano-frankivsk.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity nameOfcityBigger">Івано-Франківськ</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/kharkivImg.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Харків</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/dnipro.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Дніпро</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="rightBlock_allCities">
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/lviv.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Львів</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/ternopil.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Тернопіль</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/Vinnytsya.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Вінниця</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/rivne.jfif" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Рівне</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section_allCities">
+                        <div class="leftBlock_allCities">
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/zaporizja.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity nameOfcityBigger">Запоріжжя</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/odesa.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Одеса</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/kmelnitski.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity nameOfcityBigger">Хмельницьк</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/poltava.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Полтава</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="rightBlock_allCities">
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/lutsk.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Луцьк</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/cherkasy.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Чрекаси</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/zhitomur.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Житомир</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                            <a class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/chernivci.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Чернівці</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section_allCities">
+                        <div class="leftBlock_allCities">
+                            <div class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/kropivnitsk.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity nameOfcityBigger">Кропивницьк</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </div>
+                            <div class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/mykolaiv.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Миколаїв</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </div>
+                            <div class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/ujgorod.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Ужгород</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </div>
+                            <div class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/chernigiv.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity nameOfcityBigger">Чернігів</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rightBlock_allCities">
+                            <div class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/sumy.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Суми</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </div>
+                            <div class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/cherson.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Херсон</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </div>
+                            <div class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/donetsk.jpg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Донецьк</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </div>
+                            <div class="item_allCities" href="weather.html" target="_blank">
+                                <div class="sideLeft"><img src="images/citiesImg/luhansk.jpeg" alt=""></div>
+                                <div class="sideRight">
+                                    <div class="nameOfcity">Луганськ</div>
+                                    <div class="tempOfcity">0°</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_allCities">
+                    <div class="item_nav" onclick="onClickCity(this.innerHTML)">1</div>
+                    <div class="item_nav" onclick="onClickCity(this.innerHTML)">2</div>
+                    <div class="item_nav" onclick="onClickCity(this.innerHTML)">3</div>
+                </div>
+            </div>
+            <nav>
+                <div class="header_logo">
+                    <span>S</span>
+                    <span>K</span>
+                    <span>Y</span>
+                    <span>A</span>
+                    <span>N</span>
+                    <span>A</span>
+                </div>
+                <div class="navText">- Weather Forecast -</div>
+            </nav>
+            <div class="mainTextBlock">
+                <h2>Free, Fast and Easy</h2>
+                <p>One of the most popular sites about the weather
+                    with the Ukrainian domain. The site was created
+                    on June 18, 2022 in Ukraine </p>
+                <div class="underLine"></div>
+            </div>
+            <div class="searchBlock">
+                <h3>Find weather forecast for your city</h3>
+                <div class="inputBlock">
+                    <input type="text" id="locationInput" placeholder="Назва міста, села, регіону" maxlength="25">
+                    <a class="searchBtn" href="weather.html" target="_blank"><img src="images/searchIcon.png" alt=""></a>
+                </div>
+                <div class="btnBlock">
+                    <a class="btn_GPS" href="weather.html" target="_blank">Find city by GPS</a>
+                    <div class="btn_cities" onclick="showMenu()">Show all main cities</div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="iconsBlock">
+                    <a href="#" id="telegIcon"><img src="images/telegIcon.png" alt=""></a>
+                    <a href="#" id="facebookIcon"><img src="images/facebookIcon.png" alt=""></a>
+                    <a href="#" id="instIcon"><img src="images/instIcon.png" alt=""></a>
+                </div>
+                <div class="copyText">Copyright © 2022 Lukian. <br>All rights reserved.</div>
+            </footer>
+        </header>
+    </div>
+
+    <!--  JQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

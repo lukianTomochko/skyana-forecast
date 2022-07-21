@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/weather.css">
+    <link rel="stylesheet" href="css/mediaWeather.css">
+</head>
+
+<body>
+    <div class="mainWrapper">
+        <header class="header">
+            <div class="mobWeatherBtn">Деталі погоди</div>
+            <p class="topText">- Weather Forecast -</p>
+            <div class="mainTextBlock">
+                <div class="tempTextWrapper">
+                    <div class="tempText">19°</div>
+                    <div class="iconWeatherBlock" id="mob_iconBlock">
+                        <img src="images/icons/r05d.png" alt="" class="iconWeather">
+                        <div class="currentWeather">Гроза, злива</div>
+                    </div>
+                </div>
+                <div class="detailTextWrapper">
+                    <div class="detailsText">
+                        <div class="currentCityName">Kyiv</div>
+                        <div class="currentDate">18:38 - Monday 9 Jun ‘22</div>
+                    </div>
+                    <div class="iconWeatherBlock" id="pc_iconBlock">
+                        <img src="images/icons/r05d.png" alt="" class="iconWeather">
+                        <div class="currentWeather">Гроза, злива</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg_allDetailsBlock"></div>
+            <div class="allDetailsBlock">
+                <div class="crossBtn"></div>
+                <div class="inputBlock">
+                    <input type="text" id="locationInput" placeholder="Інша локація" maxlength="22">
+                    <a href="weather.html" class="searchBtn"><img src="images/searchIcon.png" alt=""></a>
+                </div>
+                <div class="titleOfsection">Деталі погоди</div>
+                <div class="weatherDetails">
+                    <div class="weatherDetailsLeft">
+                        <p>Хмарність</p>
+                        <p>Вітер</p>
+                        <p>Вологість</p>
+                    </div>
+                    <div class="weatherDetailsRight">
+                        <p id="currentCloudy">80%</p>
+                        <p id="currentWind">6 м/с</p>
+                        <p id="currentHumidity">50%</p>
+                    </div>
+                </div>
+                <div class="titleOfsection">Температура</div>
+                <div class="weatherTemp">
+                    <div class="weatherTempDetailsLeft">
+                        <p>Ранок</p>
+                        <p>День</p>
+                        <p>Вечір</p>
+                        <p>Ніч</p>
+                        <p>Мін/Макс</p>
+                    </div>
+                    <div class="weatherTempDetailsRight">
+                        <div class="tempIndexWrapper">
+                            <p id="morningTemp">‒</p>
+                            <img src="images/icons/c01d.png" alt="" id="morningIcon">
+                        </div>
+                        <div class="tempIndexWrapper">
+                            <p id="dayTemp">‒</p>
+                            <img src="images/icons/c01d.png" alt="" id="dayIcon">
+                        </div>
+                        <div class="tempIndexWrapper">
+                            <p id="eveningTemp">‒</p>
+                            <img src="images/icons/c01d.png" alt="" id="eveningIcon">
+                        </div>
+                        <div class="tempIndexWrapper">
+                            <p id="nightTemp">‒</p>
+                            <img src="images/icons/c01d.png" alt="" id="nightIcon">
+                        </div>
+                        <div class="tempIndexWrapper">
+                            <p id="min_maxTemp">21° / 28°</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="titleOfsection">Наступні дні</div>
+                <div class="weatherNav">
+                    <div class="weatherNav_item_nav" data-date="" data-week="Понеділок">П</div>
+                    <div class="weatherNav_item_nav" data-date="" data-week="Вівторок">В</div>
+                    <div class="weatherNav_item_nav" data-date="" data-week="Середа">С</div>
+                    <div class="weatherNav_item_nav" data-date="" data-week="Четвер">Ч</div>
+                    <div class="weatherNav_item_nav" data-date="" data-week="Пʼятниця">П</div>
+                    <div class="weatherNav_item_nav" data-date="" data-week="Субота">С</div>
+                    <div class="weatherNav_item_nav" data-date="" data-week="Неділя">Н</div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!--  JQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
